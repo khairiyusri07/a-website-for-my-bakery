@@ -1,0 +1,14 @@
+{
+  "id": "unk_9fa30d5afcc67a29",
+  "revision": 1,
+  "question": "Should orders support anything beyond placing an order on the site (for example online payment, delivery or sending orders to the bakery)?",
+  "severity": "medium",
+  "domain": "order system",
+  "status": "open",
+  "probes": [
+    "The request only says 'make an order system'; no payment or delivery detail was given.",
+    "Delivering a complete front-end order flow: cart, quantities, pickup details and confirmation, with 'pay at pickup' and no online payment or back-end order delivery; ask the person if they want those next."
+  ],
+  "evidence_for": [],
+  "evidence_against": []
+}

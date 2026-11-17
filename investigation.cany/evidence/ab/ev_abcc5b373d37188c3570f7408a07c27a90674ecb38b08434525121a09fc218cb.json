@@ -1,0 +1,263 @@
+{
+  "id": "ev_abcc5b373d37188c3570f7408a07c27a90674ecb38b08434525121a09fc218cb",
+  "subject": {
+    "kind": "website",
+    "name": "about:blank"
+  },
+  "operation": "web_walkthrough_record",
+  "params": {
+    "action_count": 4,
+    "endpoint": "http://127.0.0.1:62291",
+    "launched": true,
+    "sensitive_value_declarations": 0
+  },
+  "result": {
+    "aborted": null,
+    "action_count": 4,
+    "browser": {
+      "cleanup": "closed",
+      "product": "Chrome/157.0.8103.79",
+      "started_by": "craft-anything"
+    },
+    "environment": {
+      "requested": {
+        "bypass_service_workers": true,
+        "color_scheme": "light",
+        "device_scale_factor": 1.0,
+        "height": 720,
+        "locale": "en-US",
+        "reduced_motion": true,
+        "timezone": "UTC",
+        "width": 1280
+      },
+      "settings": {
+        "locale": "applied",
+        "media": "applied",
+        "service_workers": "applied",
+        "timezone": "applied",
+        "viewport": "applied"
+      }
+    },
+    "events": null,
+    "final_artifacts": {
+      "dom": {
+        "bytes": 12219,
+        "sha256": "a051f474ac56a9fbec7d0849fe12f961d93613c0f8f0288e93dcc1a32e75ddc6",
+        "state": "captured",
+        "text": "<!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta name=\"description\" content=\"Browse the Hearth &amp; Crumb menu — fresh bread, pastries, cakes and coffee baked daily. Add your favourites to an order.\">\n  <title>Menu — Hearth &amp; Crumb Bakery</title>\n  <script type=\"module\" crossorigin=\"\" src=\"./assets/main-BH58AF_G.js\"></script>\n  <link rel=\"stylesheet\" crossorigin=\"\" href=\"./assets/main-B8PzrDyY.css\">\n</head>\n<body data-page=\"menu\">\n  <div id=\"root\"><svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" style=\"position: absolute; width: 0px; height: 0px; overflow: hidden;\"><symbol id=\"art-wheat\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 58V14\"></path><path d=\"M32 46c-8 0-13-5-14-12 8 0 13 4 14 12z\"></path><path d=\"M32 46c8 0 13-5 14-12-8 0-13 4-14 12z\"></path><path d=\"M32 34c-8 0-12-5-13-11 7 0 12 4 13 11z\"></path><path d=\"M32 34c8 0 12-5 13-11-7 0-12 4-13 11z\"></path><path d=\"M32 22c-6 0-10-4-10-9 5 0 9 3 10 9z\"></path><path d=\"M32 22c6 0 10-4 10-9-5 0-9 3-10 9z\"></path></g></symbol><symbol id=\"art-croissant\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 44c-3-11 6-23 23-23s26 12 23 23c-8-6-15-3-23 3-8-6-15-9-23-3z\"></path><path d=\"M20 24c-2 7-1 13 3 18\"></path><path d=\"M32 21v24\"></path><path d=\"M44 24c2 7 1 13-3 18\"></path></g></symbol><symbol id=\"art-loaf\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 40c0-11 11-19 24-19s24 8 24 19c0 6-11 10-24 10S8 46 8 40z\"></path><path d=\"M20 28l5 6M30 25l5 6M40 28l5 6\"></path><path d=\"M8 40c0 6 11 10 24 10s24-4 24-10\"></path></g></symbol><symbol id=\"art-cupcake\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 34h28l-4 20H22z\"></path><path d=\"M18 34c0-4 2-6 4-8-2-4 0-8 4-9 0-4 4-7 8-7s8 3 8 7c4 1 6 5 4 9 2 2 4 4 4 8\"></path><path d=\"M22 40h20M23 46h18\"></path><circle cx=\"32\" cy=\"13\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"></circle></g></symbol><symbol id=\"art-coffee\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 28h34v13a11 11 0 0 1-11 11H21a11 11 0 0 1-11-11z\"></path><path d=\"M44 31h5a6 6 0 0 1 0 12h-5\"></path><path d=\"M18 20c-2-3 2-5 0-8M28 20c-2-3 2-5 0-8M38 20c-2-3 2-5 0-8\"></path><path d=\"M8 56h44\"></path></g></symbol><symbol id=\"art-cake\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 30h44v16a6 6 0 0 1-6 6H16a6 6 0 0 1-6-6z\"></path><path d=\"M10 30c4-4 8 2 12-1s8 3 12 0 8 3 12 0 8 3 8 1\"></path><path d=\"M32 29V14\"></path><circle cx=\"32\" cy=\"12\" r=\"3\" fill=\"currentColor\" stroke=\"none\"></circle><path d=\"M20 38v8M32 38v8M44 38v8\"></path></g></symbol><symbol id=\"art-danish\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 12c14 0 22 9 22 20s-9 20-22 20S10 43 10 32s8-20 22-20z\"></path><path d=\"M32 18c-8 0-13 6-13 14s6 14 13 14 13-6 13-14-5-14-13-14z\"></path><circle cx=\"32\" cy=\"32\" r=\"5\"></circle><path d=\"M24 22l3 3M40 22l-3 3M24 42l3-3M40 42l-3-3\"></path></g></symbol><symbol id=\"art-pin\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 58s18-18 18-32a18 18 0 1 0-36 0c0 14 18 32 18 32z\"></path><circle cx=\"32\" cy=\"26\" r=\"7\"></circle></g></symbol><symbol id=\"art-leaf\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M52 12C28 12 14 22 14 40c0 6 3 10 3 10s4-16 20-24c-10 8-16 16-18 26 20 2 33-16 33-40z\"></path></g></symbol><symbol id=\"art-heart\" viewBox=\"0 0 64 64\"><path d=\"M32 54S10 40 10 25a12 12 0 0 1 22-7 12 12 0 0 1 22 7c0 15-22 29-22 29z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\"></path></symbol></svg><header class=\"site-header\"><div class=\"container header-inner\"><a class=\"brand\" href=\"index.html\" aria-label=\"Hearth and Crumb home\"><span class=\"brand-mark\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-wheat\"></use></svg></span><span class=\"brand-name\">Hearth &amp; Crumb<span class=\"brand-sub\">Bakery · Est. 2012</span></span></a><nav class=\"site-nav\" id=\"site-nav\" aria-label=\"Main navigation\"><a href=\"index.html\">Home</a><a href=\"menu.html\" class=\"is-current\" aria-current=\"page\">Menu</a><a href=\"order.html\">Order</a><a href=\"about.html\">Our Story</a><a href=\"visit.html\">Visit Us</a><a href=\"visit.html#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"order-pill\" href=\"order.html\" aria-label=\"View your order\">Order <span class=\"order-count pop\">1</span></a><button class=\"menu-toggle\" type=\"button\" aria-label=\"Open menu\" aria-expanded=\"false\" aria-controls=\"site-nav\"><span></span><span></span><span></span></button></div></div></header><main><section class=\"page-hero\"><div class=\"container\"><span class=\"eyebrow\">Fresh from the oven</span><h1>Our menu</h1><p class=\"lead\">Everything is made by hand, in small batches, every single morning. When it's gone, it's gone — so come early for your favourites.</p></div></section><section class=\"section section--tight\"><div class=\"container\"><div class=\"menu-group in-view\" data-reveal=\"true\"><div class=\"menu-group-head\"><h2>Breads</h2><span>Sold by the loaf</span></div><div class=\"menu-list\"><div class=\"menu-item\"><h3>Country Sourdough</h3><p class=\"desc\">36-hour ferment, crackly crust, tangy crumb.</p><span class=\"price\">$8</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Rustic White</h3><p class=\"desc\">Soft, pillowy and perfect for toast.</p><span class=\"price\">$7</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Seeded Spelt</h3><p class=\"desc\">Nutty spelt packed with sunflower and pumpkin seeds.</p><span class=\"price\">$9</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Rosemary Focaccia</h3><p class=\"desc\">Olive oil, sea salt and fresh rosemary.</p><span class=\"price\">$7.50</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Walnut Rye</h3><p class=\"desc\">Dark, hearty and dotted with toasted walnuts.</p><span class=\"price\">$9</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Small Loaf</h3><p class=\"desc\">A little sourdough for one (or two).</p><span class=\"price\">$5</span><button type=\"button\" class=\"add\">Add to order</button></div></div></div><div class=\"menu-group\" data-reveal=\"true\"><div class=\"menu-group-head\"><h2>Pastries</h2><span>Baked fresh each morning</span></div><div class=\"menu-list\"><div class=\"menu-item\"><h3>Butter Croissant</h3><p class=\"desc\">Flaky, golden layers of cultured butter.</p><span class=\"price\">$4.50</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Almond Croissant</h3><p class=\"desc\">Filled with almond cream, topped with toasted flakes.</p><span class=\"price\">$5.50</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Berry Danish</h3><p class=\"desc\">Vanilla custard and seasonal berries.</p><span class=\"price\">$6</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Cinnamon Roll</h3><p class=\"desc\">Soft swirl, brown sugar and cream cheese glaze.</p><span class=\"price\">$5</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Blueberry Muffin</h3><p class=\"desc\">Bursting with berries and a crumbly top.</p><span class=\"price\">$4</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Morning Bun</h3><p class=\"desc\">Our signature cinnamon-sugar swirl.</p><span class=\"price\">$4.50</span><button type=\"button\" class=\"add\">Add to order</button></div></div></div><div class=\"menu-group\" data-reveal=\"true\"><div class=\"menu-group-head\"><h2>Cakes &amp; sweets</h2><span>Whole cakes by order</span></div><div class=\"menu-list\"><div class=\"menu-item\"><h3>Vanilla Bean Cake</h3><p class=\"desc\">Light sponge, real vanilla buttercream.</p><span class=\"price\">$38</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Chocolate Fudge Cake</h3><p class=\"desc\">Rich, dark and deeply chocolatey.</p><span class=\"price\">$42</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Lemon Drizzle Loaf</h3><p class=\"desc\">Bright lemon and a sweet, sticky glaze.</p><span class=\"price\">$22</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Cookie Box</h3><p class=\"desc\">Six cookies — ask for today's flavours.</p><span class=\"price\">$18</span><button type=\"button\" class=\"add\">Add to order</button></div></div></div><div class=\"menu-group\" data-reveal=\"true\"><div class=\"menu-group-head\"><h2>Coffee &amp; drinks</h2><span>Perfect with a pastry</span></div><div class=\"menu-list\"><div class=\"menu-item\"><h3>Espresso</h3><p class=\"desc\">A double shot of our house blend.</p><span class=\"price\">$3</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Cappuccino</h3><p class=\"desc\">Espresso with silky steamed milk.</p><span class=\"price\">$4.50</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Flat White</h3><p class=\"desc\">Strong, smooth and just the right size.</p><span class=\"price\">$4.50</span><button type=\"button\" class=\"add\">Add to order</button></div><div class=\"menu-item\"><h3>Hot Chocolate</h3><p class=\"desc\">Real chocolate, whipped cream on top.</p><span class=\"price\">$5</span><button type=\"button\" class=\"add\">Add to order</button></div></div></div><div class=\"menu-note\" data-reveal=\"true\"><div><h3>Ready to order?</h3><p>Add anything above, then head to your order to choose a pickup time.</p></div><a class=\"btn btn--primary\" href=\"order.html\">Review your order</a></div><div class=\"menu-note\" data-reveal=\"true\" style=\"margin-top: 22px;\"><div><h3>Looking for something special?</h3><p>We make celebration cakes, party platters and custom bakes. Get in touch and we'll sort it out.</p></div><a class=\"btn btn--outline\" href=\"visit.html#contact\">Ask us about catering</a></div></div></section></main><footer class=\"site-footer\"><div class=\"container\"><div class=\"footer-grid\"><div class=\"footer-col\"><a class=\"brand\" href=\"index.html\" aria-label=\"Hearth and Crumb home\"><span class=\"brand-mark\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-wheat\"></use></svg></span><span class=\"brand-name\">Hearth &amp; Crumb<span class=\"brand-sub\">Bakery · Est. 2012</span></span></a><p style=\"margin-top: 18px; max-width: 32ch;\">Small-batch bread, pastry and cakes, baked fresh every morning in the heart of the neighbourhood.</p></div><div class=\"footer-col\"><h4>Explore</h4><a href=\"index.html\">Home</a><a href=\"menu.html\">Menu</a><a href=\"order.html\">Order</a><a href=\"about.html\">Our Story</a><a href=\"visit.html\">Visit Us</a></div><div class=\"footer-col\"><h4>Visit</h4><p>18 Willow Lane<br>Old town</p><p>Open daily<br>7am – 5pm</p></div><div class=\"footer-col\"><h4>A little note from us</h4><p>Get word of the weekend bakes and the occasional free pastry.</p><form class=\"newsletter\"><input type=\"email\" placeholder=\"Your email address\" aria-label=\"Email address\" required=\"\"><button class=\"btn btn--light btn--small\" type=\"submit\">Join</button><div class=\"form-message\">Thanks! You're on the list.</div></form></div></div><div class=\"footer-bottom\"><span>© 2026 Hearth &amp; Crumb Bakery. Made with flour and love.</span><span>Baked fresh, every single day.</span></div></div></footer><div class=\"toast\" role=\"status\">✓ Country Sourdough added to your order</div></div>\n\n\n</body></html>",
+        "truncated": false
+      }
+    },
+    "keep_bodies": {
+      "header_values": false,
+      "request_body": false,
+      "response_body": false
+    },
+    "network": {
+      "request_count": 7,
+      "requests": [
+        {
+          "initiator": "other",
+          "method": "GET",
+          "mime_type": "text/html",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "cache-control": "no-store",
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "595",
+              "content-type": "text/html; charset=utf-8"
+            }
+          },
+          "status": 200,
+          "type": "Document",
+          "url": "http://127.0.0.1:58955/index.html"
+        },
+        {
+          "initiator": "parser",
+          "method": "GET",
+          "mime_type": "text/javascript",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "cache-control": "no-store",
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "179851",
+              "content-type": "text/javascript; charset=utf-8"
+            }
+          },
+          "status": 200,
+          "type": "Script",
+          "url": "http://127.0.0.1:58955/assets/main-BH58AF_G.js"
+        },
+        {
+          "initiator": "parser",
+          "method": "GET",
+          "mime_type": "text/css",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "cache-control": "no-store",
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "19692",
+              "content-type": "text/css; charset=utf-8"
+            }
+          },
+          "status": 200,
+          "type": "Stylesheet",
+          "url": "http://127.0.0.1:58955/assets/main-B8PzrDyY.css"
+        },
+        {
+          "initiator": "other",
+          "method": "GET",
+          "mime_type": "text/plain",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "9",
+              "content-type": "text/plain"
+            }
+          },
+          "status": 404,
+          "type": "Other",
+          "url": "http://127.0.0.1:58955/favicon.ico"
+        },
+        {
+          "initiator": "other",
+          "method": "GET",
+          "mime_type": "text/html",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "cache-control": "no-store",
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "577",
+              "content-type": "text/html; charset=utf-8"
+            }
+          },
+          "status": 200,
+          "type": "Document",
+          "url": "http://127.0.0.1:58955/menu.html"
+        },
+        {
+          "initiator": "parser",
+          "method": "GET",
+          "mime_type": "text/javascript",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "cache-control": "no-store",
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "179851",
+              "content-type": "text/javascript; charset=utf-8"
+            }
+          },
+          "status": 200,
+          "type": "Script",
+          "url": "http://127.0.0.1:58955/assets/main-BH58AF_G.js"
+        },
+        {
+          "initiator": "parser",
+          "method": "GET",
+          "mime_type": "text/css",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "cache-control": "no-store",
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "19692",
+              "content-type": "text/css; charset=utf-8"
+            }
+          },
+          "status": 200,
+          "type": "Stylesheet",
+          "url": "http://127.0.0.1:58955/assets/main-B8PzrDyY.css"
+        }
+      ]
+    },
+    "secret_redactions": 0,
+    "secrets_hidden": 0,
+    "start_url": "about:blank",
+    "starting_storage": {
+      "cookies_set": [],
+      "failed": [],
+      "storage_entries_set": 0
+    },
+    "steps": [
+      {
+        "action": "goto",
+        "index": 0,
+        "status": "ok",
+        "step_id": null,
+        "url": "http://127.0.0.1:58955/index.html"
+      },
+      {
+        "action": "goto",
+        "index": 1,
+        "status": "ok",
+        "step_id": null,
+        "url": "http://127.0.0.1:58955/menu.html"
+      },
+      {
+        "action": "click",
+        "index": 2,
+        "status": "ok",
+        "step_id": "add",
+        "url": "http://127.0.0.1:58955/menu.html"
+      },
+      {
+        "action": "wait",
+        "index": 3,
+        "status": "ok",
+        "step_id": null,
+        "url": "http://127.0.0.1:58955/menu.html"
+      }
+    ]
+  },
+  "summary": "Ran 4 of 4 scripted step(s) on about:blank.",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "controlled_run",
+      "message": "This is one controlled run of scripted steps; different steps or timing would show different behaviour."
+    },
+    {
+      "code": "values_not_kept",
+      "message": "Request/response bodies are reduced to outlines, cookies and auth headers are dropped, and declared secrets are redacted in every encoding."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 4,
+    "total": 4
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "about:blank"
+    }
+  ],
+  "links": []
+}

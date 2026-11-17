@@ -1,0 +1,60 @@
+{
+  "id": "ev_f08d4c47db8b4e335a84d1eb1d01d36ccb426740949b3d250942d1a1ed6c9d19",
+  "subject": {
+    "kind": "website",
+    "name": "about:blank"
+  },
+  "operation": "core_evidence_browse",
+  "params": {
+    "show": {
+      "kind": "part",
+      "name": "final_artifacts"
+    },
+    "source": {
+      "evidence_id": "ev_967775eb56c0e8db941356377574d3aabf53113bd3d4d63b47f2577e2e29bb75",
+      "kind": "saved"
+    }
+  },
+  "result": {
+    "coverage": {
+      "at_end": true,
+      "examined": 1,
+      "next_offset": null,
+      "status": "all-in-view",
+      "total": 1
+    },
+    "from_evidence": "ev_967775eb56c0e8db941356377574d3aabf53113bd3d4d63b47f2577e2e29bb75",
+    "from_tool": "web_walkthrough_record",
+    "shown": {
+      "part": "final_artifacts",
+      "value": {
+        "dom": {
+          "bytes": 9362,
+          "sha256": "b3978a0eb3be243437de409f00c95f54c97b29b503dea5fcf2d01907677aefda",
+          "state": "captured",
+          "text": "<!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta name=\"description\" content=\"Review your Hearth &amp; Crumb order, choose a pickup time and place your order.\">\n  <title>Your Order — Hearth &amp; Crumb Bakery</title>\n  <script type=\"module\" crossorigin=\"\" src=\"./assets/main-BH58AF_G.js\"></script>\n  <link rel=\"stylesheet\" crossorigin=\"\" href=\"./assets/main-B8PzrDyY.css\">\n</head>\n<body data-page=\"order\">\n  <div id=\"root\"><svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" style=\"position: absolute; width: 0px; height: 0px; overflow: hidden;\"><symbol id=\"art-wheat\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 58V14\"></path><path d=\"M32 46c-8 0-13-5-14-12 8 0 13 4 14 12z\"></path><path d=\"M32 46c8 0 13-5 14-12-8 0-13 4-14 12z\"></path><path d=\"M32 34c-8 0-12-5-13-11 7 0 12 4 13 11z\"></path><path d=\"M32 34c8 0 12-5 13-11-7 0-12 4-13 11z\"></path><path d=\"M32 22c-6 0-10-4-10-9 5 0 9 3 10 9z\"></path><path d=\"M32 22c6 0 10-4 10-9-5 0-9 3-10 9z\"></path></g></symbol><symbol id=\"art-croissant\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 44c-3-11 6-23 23-23s26 12 23 23c-8-6-15-3-23 3-8-6-15-9-23-3z\"></path><path d=\"M20 24c-2 7-1 13 3 18\"></path><path d=\"M32 21v24\"></path><path d=\"M44 24c2 7 1 13-3 18\"></path></g></symbol><symbol id=\"art-loaf\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 40c0-11 11-19 24-19s24 8 24 19c0 6-11 10-24 10S8 46 8 40z\"></path><path d=\"M20 28l5 6M30 25l5 6M40 28l5 6\"></path><path d=\"M8 40c0 6 11 10 24 10s24-4 24-10\"></path></g></symbol><symbol id=\"art-cupcake\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 34h28l-4 20H22z\"></path><path d=\"M18 34c0-4 2-6 4-8-2-4 0-8 4-9 0-4 4-7 8-7s8 3 8 7c4 1 6 5 4 9 2 2 4 4 4 8\"></path><path d=\"M22 40h20M23 46h18\"></path><circle cx=\"32\" cy=\"13\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"></circle></g></symbol><symbol id=\"art-coffee\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 28h34v13a11 11 0 0 1-11 11H21a11 11 0 0 1-11-11z\"></path><path d=\"M44 31h5a6 6 0 0 1 0 12h-5\"></path><path d=\"M18 20c-2-3 2-5 0-8M28 20c-2-3 2-5 0-8M38 20c-2-3 2-5 0-8\"></path><path d=\"M8 56h44\"></path></g></symbol><symbol id=\"art-cake\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 30h44v16a6 6 0 0 1-6 6H16a6 6 0 0 1-6-6z\"></path><path d=\"M10 30c4-4 8 2 12-1s8 3 12 0 8 3 12 0 8 3 8 1\"></path><path d=\"M32 29V14\"></path><circle cx=\"32\" cy=\"12\" r=\"3\" fill=\"currentColor\" stroke=\"none\"></circle><path d=\"M20 38v8M32 38v8M44 38v8\"></path></g></symbol><symbol id=\"art-danish\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 12c14 0 22 9 22 20s-9 20-22 20S10 43 10 32s8-20 22-20z\"></path><path d=\"M32 18c-8 0-13 6-13 14s6 14 13 14 13-6 13-14-5-14-13-14z\"></path><circle cx=\"32\" cy=\"32\" r=\"5\"></circle><path d=\"M24 22l3 3M40 22l-3 3M24 42l3-3M40 42l-3-3\"></path></g></symbol><symbol id=\"art-pin\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 58s18-18 18-32a18 18 0 1 0-36 0c0 14 18 32 18 32z\"></path><circle cx=\"32\" cy=\"26\" r=\"7\"></circle></g></symbol><symbol id=\"art-leaf\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M52 12C28 12 14 22 14 40c0 6 3 10 3 10s4-16 20-24c-10 8-16 16-18 26 20 2 33-16 33-40z\"></path></g></symbol><symbol id=\"art-heart\" viewBox=\"0 0 64 64\"><path d=\"M32 54S10 40 10 25a12 12 0 0 1 22-7 12 12 0 0 1 22 7c0 15-22 29-22 29z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\"></path></symbol></svg><header class=\"site-header\"><div class=\"container header-inner\"><a class=\"brand\" href=\"index.html\" aria-label=\"Hearth and Crumb home\"><span class=\"brand-mark\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-wheat\"></use></svg></span><span class=\"brand-name\">Hearth &amp; Crumb<span class=\"brand-sub\">Bakery · Est. 2012</span></span></a><nav class=\"site-nav\" id=\"site-nav\" aria-label=\"Main navigation\"><a href=\"index.html\">Home</a><a href=\"menu.html\">Menu</a><a href=\"order.html\" class=\"is-current\" aria-current=\"page\">Order</a><a href=\"about.html\">Our Story</a><a href=\"visit.html\">Visit Us</a><a href=\"visit.html#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"order-pill is-current\" href=\"order.html\" aria-label=\"View your order\">Order <span class=\"order-count pop\">2</span></a><button class=\"menu-toggle\" type=\"button\" aria-label=\"Open menu\" aria-expanded=\"false\" aria-controls=\"site-nav\"><span></span><span></span><span></span></button></div></div></header><main><section class=\"page-hero\"><div class=\"container\"><span class=\"eyebrow\">Fresh from our ovens</span><h1>Your order</h1><p class=\"lead\">Pick your favourites, tell us when to have them ready, and we'll do the baking.</p></div></section><section class=\"section section--tight\"><div class=\"container\"><div class=\"order-layout\"><div><div class=\"section-head\"><span class=\"eyebrow\">In your basket</span><h2>2 items ready to bake</h2><p class=\"lead\">Everything is baked fresh, so please give us a little time.</p></div><div class=\"cart-list\"><div class=\"cart-row\"><div class=\"cart-thumb card-art--rust\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-loaf\"></use></svg></div><div><h3>Country Sourdough</h3><p>$8 each</p></div><div class=\"qty\"><button type=\"button\" aria-label=\"One fewer Country Sourdough\">−</button><span>2</span><button type=\"button\" aria-label=\"One more Country Sourdough\">+</button></div><div><div class=\"cart-line-total\">$16</div><button type=\"button\" class=\"remove-btn\">Remove</button></div></div></div><div class=\"menu-note\" style=\"margin-top: 30px;\"><div><h3>Need something special?</h3><p>Custom cakes and party platters are made to order — just ask.</p></div><a class=\"btn btn--outline\" href=\"visit.html#contact\">Ask us</a></div></div><aside class=\"summary-card\"><h3>Order summary</h3><div class=\"summary-row\"><span>Subtotal</span><strong>$16</strong></div><div class=\"summary-row\"><span>Pickup</span><span>Free</span></div><div class=\"summary-row total\"><span>Total</span><span>$16</span></div><p class=\"summary-note\">Payment is taken when you pick up. Nothing is charged online.</p><form class=\"checkout-form\" novalidate=\"\"><div class=\"field\"><label for=\"name\">Your name</label><input id=\"name\" name=\"name\" type=\"text\" placeholder=\"Jane Smith\" value=\"Test Customer\"></div><div class=\"field\"><label for=\"phone\">Phone number</label><input id=\"phone\" name=\"phone\" type=\"tel\" placeholder=\"(555) 010-2030\" value=\"5550102030\"></div><div class=\"field\"><label for=\"email\">Email address</label><input id=\"email\" name=\"email\" type=\"email\" placeholder=\"jane@example.com\" value=\"test@example.com\"></div><div class=\"field\"><label for=\"slot\">Pickup time</label><select id=\"slot\" name=\"slot\"><option value=\"today-pm\">Today, 2:00 – 4:00pm</option><option value=\"tomorrow-am\">Tomorrow, 8:00 – 10:00am</option><option value=\"tomorrow-noon\">Tomorrow, 10:00am – 12:00pm</option><option value=\"tomorrow-pm\">Tomorrow, 2:00 – 4:00pm</option></select></div><div class=\"field\"><label for=\"notes\">Anything else? (optional)</label><textarea id=\"notes\" name=\"notes\" placeholder=\"Special requests, allergies...\" rows=\"3\"></textarea></div><button class=\"btn btn--primary\" type=\"submit\">Place order</button></form></aside></div></div></section></main><footer class=\"site-footer\"><div class=\"container\"><div class=\"footer-grid\"><div class=\"footer-col\"><a class=\"brand\" href=\"index.html\" aria-label=\"Hearth and Crumb home\"><span class=\"brand-mark\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-wheat\"></use></svg></span><span class=\"brand-name\">Hearth &amp; Crumb<span class=\"brand-sub\">Bakery · Est. 2012</span></span></a><p style=\"margin-top: 18px; max-width: 32ch;\">Small-batch bread, pastry and cakes, baked fresh every morning in the heart of the neighbourhood.</p></div><div class=\"footer-col\"><h4>Explore</h4><a href=\"index.html\">Home</a><a href=\"menu.html\">Menu</a><a href=\"order.html\">Order</a><a href=\"about.html\">Our Story</a><a href=\"visit.html\">Visit Us</a></div><div class=\"footer-col\"><h4>Visit</h4><p>18 Willow Lane<br>Old town</p><p>Open daily<br>7am – 5pm</p></div><div class=\"footer-col\"><h4>A little note from us</h4><p>Get word of the weekend bakes and the occasional free pastry.</p><form class=\"newsletter\"><input type=\"email\" placeholder=\"Your email address\" aria-label=\"Email address\" required=\"\"><button class=\"btn btn--light btn--small\" type=\"submit\">Join</button><div class=\"form-message\">Thanks! You're on the list.</div></form></div></div><div class=\"footer-bottom\"><span>© 2026 Hearth &amp; Crumb Bakery. Made with flour and love.</span><span>Baked fresh, every single day.</span></div></div></footer></div>\n\n\n</body></html>",
+          "truncated": false
+        }
+      }
+    }
+  },
+  "summary": "Part of web_walkthrough_record evidence (all-in-view).",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [],
+  "links": [
+    "ev_967775eb56c0e8db941356377574d3aabf53113bd3d4d63b47f2577e2e29bb75"
+  ]
+}

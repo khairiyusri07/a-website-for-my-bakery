@@ -1,0 +1,193 @@
+{
+  "id": "ev_98bdc8e0e9aaf84f5cc008320b03477be4d294b099ded0900e90f3a066f49b37",
+  "subject": {
+    "kind": "website",
+    "name": "about:blank"
+  },
+  "operation": "web_walkthrough_record",
+  "params": {
+    "action_count": 3,
+    "endpoint": "http://127.0.0.1:60935",
+    "launched": true,
+    "sensitive_value_declarations": 0
+  },
+  "result": {
+    "aborted": "step 2 failed",
+    "action_count": 3,
+    "browser": {
+      "cleanup": "closed",
+      "product": "Chrome/157.0.8103.79",
+      "started_by": "craft-anything"
+    },
+    "environment": {
+      "requested": {
+        "bypass_service_workers": true,
+        "color_scheme": "light",
+        "device_scale_factor": 1.0,
+        "height": 720,
+        "locale": "en-US",
+        "reduced_motion": true,
+        "timezone": "UTC",
+        "width": 1280
+      },
+      "settings": {
+        "locale": "applied",
+        "media": "applied",
+        "service_workers": "applied",
+        "timezone": "applied",
+        "viewport": "applied"
+      }
+    },
+    "events": null,
+    "final_artifacts": {
+      "dom": {
+        "bytes": 12735,
+        "sha256": "77439d6618a6b8c2eb358856e03c029b3a815cb5adf0cfd1a5e925904ca018c7",
+        "state": "captured",
+        "text": "<!DOCTYPE html><html lang=\"en\"><head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta name=\"description\" content=\"Hearth &amp; Crumb is a neighbourhood bakery baking small-batch bread, pastry and cakes fresh every morning. Order online for pickup.\">\n  <title>Hearth &amp; Crumb — Neighbourhood Bakery</title>\n  <script type=\"module\" crossorigin=\"\" src=\"./assets/main-BH58AF_G.js\"></script>\n  <link rel=\"stylesheet\" crossorigin=\"\" href=\"./assets/main-B8PzrDyY.css\">\n</head>\n<body data-page=\"home\">\n  <div id=\"root\"><svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" style=\"position: absolute; width: 0px; height: 0px; overflow: hidden;\"><symbol id=\"art-wheat\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 58V14\"></path><path d=\"M32 46c-8 0-13-5-14-12 8 0 13 4 14 12z\"></path><path d=\"M32 46c8 0 13-5 14-12-8 0-13 4-14 12z\"></path><path d=\"M32 34c-8 0-12-5-13-11 7 0 12 4 13 11z\"></path><path d=\"M32 34c8 0 12-5 13-11-7 0-12 4-13 11z\"></path><path d=\"M32 22c-6 0-10-4-10-9 5 0 9 3 10 9z\"></path><path d=\"M32 22c6 0 10-4 10-9-5 0-9 3-10 9z\"></path></g></symbol><symbol id=\"art-croissant\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 44c-3-11 6-23 23-23s26 12 23 23c-8-6-15-3-23 3-8-6-15-9-23-3z\"></path><path d=\"M20 24c-2 7-1 13 3 18\"></path><path d=\"M32 21v24\"></path><path d=\"M44 24c2 7 1 13-3 18\"></path></g></symbol><symbol id=\"art-loaf\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 40c0-11 11-19 24-19s24 8 24 19c0 6-11 10-24 10S8 46 8 40z\"></path><path d=\"M20 28l5 6M30 25l5 6M40 28l5 6\"></path><path d=\"M8 40c0 6 11 10 24 10s24-4 24-10\"></path></g></symbol><symbol id=\"art-cupcake\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 34h28l-4 20H22z\"></path><path d=\"M18 34c0-4 2-6 4-8-2-4 0-8 4-9 0-4 4-7 8-7s8 3 8 7c4 1 6 5 4 9 2 2 4 4 4 8\"></path><path d=\"M22 40h20M23 46h18\"></path><circle cx=\"32\" cy=\"13\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"></circle></g></symbol><symbol id=\"art-coffee\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 28h34v13a11 11 0 0 1-11 11H21a11 11 0 0 1-11-11z\"></path><path d=\"M44 31h5a6 6 0 0 1 0 12h-5\"></path><path d=\"M18 20c-2-3 2-5 0-8M28 20c-2-3 2-5 0-8M38 20c-2-3 2-5 0-8\"></path><path d=\"M8 56h44\"></path></g></symbol><symbol id=\"art-cake\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 30h44v16a6 6 0 0 1-6 6H16a6 6 0 0 1-6-6z\"></path><path d=\"M10 30c4-4 8 2 12-1s8 3 12 0 8 3 12 0 8 3 8 1\"></path><path d=\"M32 29V14\"></path><circle cx=\"32\" cy=\"12\" r=\"3\" fill=\"currentColor\" stroke=\"none\"></circle><path d=\"M20 38v8M32 38v8M44 38v8\"></path></g></symbol><symbol id=\"art-danish\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 12c14 0 22 9 22 20s-9 20-22 20S10 43 10 32s8-20 22-20z\"></path><path d=\"M32 18c-8 0-13 6-13 14s6 14 13 14 13-6 13-14-5-14-13-14z\"></path><circle cx=\"32\" cy=\"32\" r=\"5\"></circle><path d=\"M24 22l3 3M40 22l-3 3M24 42l3-3M40 42l-3-3\"></path></g></symbol><symbol id=\"art-pin\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 58s18-18 18-32a18 18 0 1 0-36 0c0 14 18 32 18 32z\"></path><circle cx=\"32\" cy=\"26\" r=\"7\"></circle></g></symbol><symbol id=\"art-leaf\" viewBox=\"0 0 64 64\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M52 12C28 12 14 22 14 40c0 6 3 10 3 10s4-16 20-24c-10 8-16 16-18 26 20 2 33-16 33-40z\"></path></g></symbol><symbol id=\"art-heart\" viewBox=\"0 0 64 64\"><path d=\"M32 54S10 40 10 25a12 12 0 0 1 22-7 12 12 0 0 1 22 7c0 15-22 29-22 29z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\"></path></symbol></svg><header class=\"site-header\"><div class=\"container header-inner\"><a class=\"brand\" href=\"index.html\" aria-label=\"Hearth and Crumb home\"><span class=\"brand-mark\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-wheat\"></use></svg></span><span class=\"brand-name\">Hearth &amp; Crumb<span class=\"brand-sub\">Bakery · Est. 2012</span></span></a><nav class=\"site-nav\" id=\"site-nav\" aria-label=\"Main navigation\"><a href=\"index.html\" class=\"is-current\" aria-current=\"page\">Home</a><a href=\"menu.html\">Menu</a><a href=\"order.html\">Order</a><a href=\"about.html\">Our Story</a><a href=\"visit.html\">Visit Us</a><a href=\"visit.html#contact\">Contact</a></nav><div class=\"header-actions\"><a class=\"order-pill\" href=\"order.html\" aria-label=\"View your order\">Order <span class=\"order-count pop\">0</span></a><button class=\"menu-toggle\" type=\"button\" aria-label=\"Open menu\" aria-expanded=\"false\" aria-controls=\"site-nav\"><span></span><span></span><span></span></button></div></div></header><main><section class=\"hero\"><div class=\"container hero-grid\"><div class=\"hero-copy in-view\" data-reveal=\"true\"><span class=\"eyebrow\">Small batch · Baked daily</span><h1>Bread, pastry &amp; a little bit of <em>magic.</em></h1><p class=\"lead\">We're a family-run neighbourhood bakery. Every morning we fill our ovens with slow-fermented loaves, buttery pastries and a few sweet surprises — all made by hand, from scratch.</p><div class=\"hero-actions\"><a class=\"btn btn--primary\" href=\"menu.html\">Explore the menu</a><a class=\"btn btn--outline\" href=\"order.html\">Order online</a><a class=\"btn btn--outline\" href=\"about.html\">Our story</a></div></div><div class=\"hero-visual in-view\" data-reveal=\"true\"><div class=\"hero-frame\"><svg class=\"art art--loaf\" aria-hidden=\"true\"><use href=\"#art-loaf\"></use></svg></div><div class=\"hero-badge\"><span><strong>Fresh</strong><br>every morning</span></div></div></div></section><section class=\"promise\"><div class=\"container promise-grid\"><div class=\"promise-item\" data-reveal=\"true\"><span class=\"promise-icon\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-wheat\"></use></svg></span><div><h4>Made from scratch</h4><p>No mixes, no shortcuts — just real ingredients.</p></div></div><div class=\"promise-item\" data-reveal=\"true\"><span class=\"promise-icon\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-heart\"></use></svg></span><div><h4>Baked with care</h4><p>Small batches, shaped and finished by hand.</p></div></div><div class=\"promise-item\" data-reveal=\"true\"><span class=\"promise-icon\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-leaf\"></use></svg></span><div><h4>Locally sourced</h4><p>Flour, fruit and dairy from farms we know.</p></div></div></div></section><section class=\"section\"><div class=\"container\"><div class=\"section-head\" data-reveal=\"true\"><span class=\"eyebrow\">From our ovens</span><h2>Today's favourites</h2><p class=\"lead\">A few things we're especially proud of. Our case changes with the seasons, but these familiar faces are here most days.</p></div><div class=\"card-grid\"><article class=\"card\" data-reveal=\"true\"><div class=\"card-art card-art--rust\"><span class=\"card-tag\">Bestseller</span><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-loaf\"></use></svg></div><div class=\"card-body\"><h3>Country Sourdough</h3><p>A 36-hour fermented loaf with a crackly crust and a soft, tangy crumb.</p><div class=\"card-foot\"><span class=\"price\">$8</span><button type=\"button\" class=\"btn btn--outline btn--small\">Add to order</button></div></div></article><article class=\"card\" data-reveal=\"true\"><div class=\"card-art card-art--honey\"><span class=\"card-tag\">Morning favourite</span><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-croissant\"></use></svg></div><div class=\"card-body\"><h3>Butter Croissant</h3><p>Flaky, golden layers made with cultured butter. Best warmed up.</p><div class=\"card-foot\"><span class=\"price\">$4.50</span><button type=\"button\" class=\"btn btn--outline btn--small\">Add to order</button></div></div></article><article class=\"card\" data-reveal=\"true\"><div class=\"card-art card-art--berry\"><span class=\"card-tag\">Seasonal</span><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-danish\"></use></svg></div><div class=\"card-body\"><h3>Berry Danish</h3><p>Soft, braided pastry with vanilla custard and whatever berries are in season.</p><div class=\"card-foot\"><span class=\"price\">$6</span><button type=\"button\" class=\"btn btn--outline btn--small\">Add to order</button></div></div></article></div></div></section><section class=\"section section--paper\"><div class=\"container split\"><div class=\"split-visual\" data-reveal=\"true\"><svg class=\"art art--wheat\" aria-hidden=\"true\"><use href=\"#art-wheat\"></use></svg><div class=\"split-note\"><strong>12 years</strong> of early mornings &amp; flour-dusted aprons</div></div><div class=\"split-copy\" data-reveal=\"true\"><span class=\"eyebrow\">A little about us</span><h2>Good bread takes time. So does a good neighbourhood.</h2><p class=\"lead\">What started as one oven in a tiny kitchen is now a busy little bakery on the corner — but not much has changed about how we work.</p><p>We still weigh every ingredient by hand, still talk to the farmers who grow our grain, and still believe that the best part of the day is watching someone take their first bite of something warm.</p><div class=\"stat-row\"><div class=\"stat\"><strong>12</strong><span>Years baking</span></div><div class=\"stat\"><strong>3</strong><span>Neighbourhood shops</span></div><div class=\"stat\"><strong>100%</strong><span>Handmade</span></div></div><div class=\"hero-actions\"><a class=\"btn btn--primary\" href=\"about.html\">Read our story</a></div></div></div></section><section class=\"section quote\"><div class=\"container quote-inner\" data-reveal=\"true\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-heart\"></use></svg><blockquote>\"It smells like a Saturday morning in here — and somehow the croissants are even better than the smell.\"</blockquote><cite>— A very happy regular</cite></div></section><section class=\"section section--tight\"><div class=\"container\"><div class=\"section-head center\" data-reveal=\"true\"><span class=\"eyebrow\">Come say hello</span><h2>Your new morning ritual</h2><p class=\"lead\">Doors open at 7am, seven days a week. Come early for the good stuff — we sell out of the sourdough most afternoons.</p></div><div class=\"visit-grid\"><div class=\"info-panel\" data-reveal=\"true\"><h3>Find us</h3><div class=\"info-line\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-pin\"></use></svg><p><strong>18 Willow Lane</strong>Old town, between the library and the park</p></div><div class=\"info-line\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-coffee\"></use></svg><p><strong>Open daily · 7am – 5pm</strong>Fresh bread out of the oven around 8am</p></div><div class=\"hero-actions\"><a class=\"btn btn--primary\" href=\"visit.html\">Plan your visit</a></div></div><div class=\"map-panel\" data-reveal=\"true\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-pin\"></use></svg><span class=\"map-label\">18 Willow Lane · Old town</span></div></div></div></section></main><footer class=\"site-footer\"><div class=\"container\"><div class=\"footer-grid\"><div class=\"footer-col\"><a class=\"brand\" href=\"index.html\" aria-label=\"Hearth and Crumb home\"><span class=\"brand-mark\"><svg class=\"art\" aria-hidden=\"true\"><use href=\"#art-wheat\"></use></svg></span><span class=\"brand-name\">Hearth &amp; Crumb<span class=\"brand-sub\">Bakery · Est. 2012</span></span></a><p style=\"margin-top: 18px; max-width: 32ch;\">Small-batch bread, pastry and cakes, baked fresh every morning in the heart of the neighbourhood.</p></div><div class=\"footer-col\"><h4>Explore</h4><a href=\"index.html\">Home</a><a href=\"menu.html\">Menu</a><a href=\"order.html\">Order</a><a href=\"about.html\">Our Story</a><a href=\"visit.html\">Visit Us</a></div><div class=\"footer-col\"><h4>Visit</h4><p>18 Willow Lane<br>Old town</p><p>Open daily<br>7am – 5pm</p></div><div class=\"footer-col\"><h4>A little note from us</h4><p>Get word of the weekend bakes and the occasional free pastry.</p><form class=\"newsletter\"><input type=\"email\" placeholder=\"Your email address\" aria-label=\"Email address\" required=\"\"><button class=\"btn btn--light btn--small\" type=\"submit\">Join</button><div class=\"form-message\">Thanks! You're on the list.</div></form></div></div><div class=\"footer-bottom\"><span>© 2026 Hearth &amp; Crumb Bakery. Made with flour and love.</span><span>Baked fresh, every single day.</span></div></div></footer></div>\n\n\n</body></html>",
+        "truncated": false
+      }
+    },
+    "keep_bodies": {
+      "header_values": false,
+      "request_body": false,
+      "response_body": false
+    },
+    "network": {
+      "request_count": 4,
+      "requests": [
+        {
+          "initiator": "other",
+          "method": "GET",
+          "mime_type": "text/html",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "cache-control": "no-store",
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "595",
+              "content-type": "text/html; charset=utf-8"
+            }
+          },
+          "status": 200,
+          "type": "Document",
+          "url": "http://127.0.0.1:58955/index.html"
+        },
+        {
+          "initiator": "parser",
+          "method": "GET",
+          "mime_type": "text/javascript",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "cache-control": "no-store",
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "179851",
+              "content-type": "text/javascript; charset=utf-8"
+            }
+          },
+          "status": 200,
+          "type": "Script",
+          "url": "http://127.0.0.1:58955/assets/main-BH58AF_G.js"
+        },
+        {
+          "initiator": "parser",
+          "method": "GET",
+          "mime_type": "text/css",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "cache-control": "no-store",
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "19692",
+              "content-type": "text/css; charset=utf-8"
+            }
+          },
+          "status": 200,
+          "type": "Stylesheet",
+          "url": "http://127.0.0.1:58955/assets/main-B8PzrDyY.css"
+        },
+        {
+          "initiator": "other",
+          "method": "GET",
+          "mime_type": "text/plain",
+          "response_headers": {
+            "credentials_present": [],
+            "kept": {
+              "connection": {
+                "value_length": 5
+              },
+              "content-length": "9",
+              "content-type": "text/plain"
+            }
+          },
+          "status": 404,
+          "type": "Other",
+          "url": "http://127.0.0.1:58955/favicon.ico"
+        }
+      ]
+    },
+    "secret_redactions": 0,
+    "secrets_hidden": 0,
+    "start_url": "about:blank",
+    "starting_storage": {
+      "cookies_set": [],
+      "failed": [],
+      "storage_entries_set": 0
+    },
+    "steps": [
+      {
+        "action": "goto",
+        "index": 0,
+        "status": "ok",
+        "step_id": null,
+        "url": "http://127.0.0.1:58955/index.html"
+      },
+      {
+        "action": "click",
+        "error": "no element matches \".card-grid .card:first-child .add\"",
+        "index": 1,
+        "status": "error",
+        "step_id": "home-add",
+        "url": "http://127.0.0.1:58955/index.html"
+      }
+    ]
+  },
+  "summary": "Ran 1 of 3 scripted step(s) on about:blank (step 2 failed).",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "controlled_run",
+      "message": "This is one controlled run of scripted steps; different steps or timing would show different behaviour."
+    },
+    {
+      "code": "values_not_kept",
+      "message": "Request/response bodies are reduced to outlines, cookies and auth headers are dropped, and declared secrets are redacted in every encoding."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 3,
+    "total": 3
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "about:blank"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "unk_753a122cc72f977f",
+  "revision": 2,
+  "question": "What is the bakery's real name and brand identity?",
+  "severity": "medium",
+  "domain": "general",
+  "status": "open",
+  "probes": [
+    "Person said 'publish it' without giving a name; site is published with the placeholder 'Hearth & Crumb'.",
+    "Ask the person for the bakery's real name and wordmark to personalise in a follow-up turn."
+  ],
+  "evidence_for": [],
+  "evidence_against": []
+}

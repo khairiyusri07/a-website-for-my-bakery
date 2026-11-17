@@ -1,0 +1,72 @@
+{
+  "revision": 19,
+  "brief": {
+    "question": "The person asked for 'a website for my bakery' and added 'make an order system'. There is no original target: rebuild the established four-page warm artisan placeholder site (Home, Menu, Our Story, Visit) in Vite + React + TypeScript, and add a working order/cart/checkout flow.",
+    "purpose": "Deliver the requested bakery website with a usable order system as a static build under app/dist.",
+    "targets": [
+      "app/ (Vite + React + TypeScript source)",
+      "app/dist (static output)"
+    ],
+    "constraints": [
+      "No original target - the earlier plain-JS build is the only design reference",
+      "Neutral placeholder brand 'Hearth & Crumb' and original line-art icons, no copied logos/photos",
+      "Static build with relative base './' ; no dev servers or watchers started by hand",
+      "Branding/style choices remain open with the person"
+    ],
+    "done_when": "npm run build succeeds, the four original pages plus a new order page render as static files, the cart persists and checkout confirms an order, and rebuild_check results are reported with any limits."
+  },
+  "plan": [
+    {
+      "title": "Study the existing pages and the evidence",
+      "status": "done",
+      "why": "Captured all copy, icons, styles and behaviour of the four plain-JS pages."
+    },
+    {
+      "title": "Rebuild the four pages in React + TypeScript",
+      "status": "done",
+      "why": "Home, Menu, Our Story and Visit are React pages with the original look and copy."
+    },
+    {
+      "title": "Add the order system",
+      "status": "done",
+      "why": "Add-to-cart, persistent basket, quantity controls, checkout details and order confirmation, plus a new Order page."
+    },
+    {
+      "title": "Install packages and make the build succeed",
+      "status": "done",
+      "why": "npm run build passes and app/dist contains all five HTML pages."
+    },
+    {
+      "title": "Check the result and fix what I can",
+      "status": "done",
+      "why": "rebuild_check passed; a scripted browser run placed an order successfully. Only a favicon 404 remains."
+    },
+    {
+      "title": "Report what is built and what is still unknown",
+      "status": "done",
+      "why": "Branding, style and order-scope choices remain open with the person."
+    }
+  ],
+  "hypotheses": [],
+  "findings": [
+    {
+      "id": "fnd_1",
+      "statement": "The four original pages were rebuilt in Vite + React + TypeScript and a new Order page was added. npm run build passes and app/dist contains index, menu, about, visit and order HTML plus shared CSS/JS assets, with base './' so it works as static files.",
+      "evidence_ids": [
+        "ev_1061e0841f9c9342d16669d2060d693560badb0041f04dc2859864500b1ea0b7"
+      ],
+      "confidence": "observed"
+    },
+    {
+      "id": "fnd_2",
+      "statement": "The order system works end to end in a scripted browser run: an item added on the menu appears in the basket with the correct total, checkout details can be filled in, and placing the order shows a numbered confirmation ('Order HC-…', 'Thank you, Test Customer'). Cart state persists in local storage and the basket badge updates. The check passed with no page errors.",
+      "evidence_ids": [
+        "ev_751684569ed1383122c621cca5b0bda40a7ce6d9e42ad38c01ad120f6c5930ce",
+        "ev_37007ab912815d8e909d03804c561e713ef0abe0801107977b4503ef59426cf7"
+      ],
+      "confidence": "observed"
+    }
+  ],
+  "handoff": "This turn rebuilt the bakery site in Vite + React + TypeScript (replacing the earlier plain-JS build) and added a working order system. app/dist now has five static pages: index, menu, about, visit and the new order page. The basket lives in localStorage, the header badge follows it, and checkout produces a numbered confirmation with pay-at-pickup (no online payment or order delivery to the bakery — open question unk_9fa30d5afcc67a29). Brand placeholder 'Hearth & Crumb' and warm artisan style were kept because no real name/style was given (unknowns unk_753a122cc72f977f, unk_ab833bb9e2ac0722). npm run build passes; rebuild_check says 'build: passed' with no visual comparison possible because there is no original target. A scripted browser run placed an order successfully (ev_751684569ed1383122c621cca5b0bda40a7ce6d9e42ad38c01ad120f6c5930ce). The only console noise is a favicon.ico 404, harmless. Trap: an old vite.config.js shadowed the new vite.config.ts and had to be deleted; keep only the TS config. Environment: node/npm at C:\\Program Files\\nodejs; build via the Craft Anything build runner in app/. Next useful step: ask the person for the real bakery name/style and whether they want real payment or orders emailed to them.",
+  "updated": "2026-11-17T11:53:35Z"
+}

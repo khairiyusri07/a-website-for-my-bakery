@@ -1,0 +1,14 @@
+{
+  "id": "unk_ab833bb9e2ac0722",
+  "revision": 2,
+  "question": "What visual style and content sections should the site have?",
+  "severity": "medium",
+  "domain": "general",
+  "status": "open",
+  "probes": [
+    "Person said 'publish it' without giving a style; warm artisan design was kept.",
+    "Ask the person for preferred colours/style/content to personalise in a follow-up turn."
+  ],
+  "evidence_for": [],
+  "evidence_against": []
+}

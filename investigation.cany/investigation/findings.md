@@ -1,0 +1,4 @@
+# Findings
+
+- **fnd_1** The four original pages were rebuilt in Vite + React + TypeScript and a new Order page was added. npm run build passes and app/dist contains index, menu, about, visit and order HTML plus shared CSS/JS assets, with base './' so it works as static files. (Seen it; evidence: ev_1061e0841f9c9342d16669d2060d693560badb0041f04dc2859864500b1ea0b7)
+- **fnd_2** The order system works end to end in a scripted browser run: an item added on the menu appears in the basket with the correct total, checkout details can be filled in, and placing the order shows a numbered confirmation ('Order HC-…', 'Thank you, Test Customer'). Cart state persists in local storage and the basket badge updates. The check passed with no page errors. (Seen it; evidence: ev_751684569ed1383122c621cca5b0bda40a7ce6d9e42ad38c01ad120f6c5930ce, ev_37007ab912815d8e909d03804c561e713ef0abe0801107977b4503ef59426cf7)
